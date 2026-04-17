@@ -5,6 +5,7 @@ resource "aws_s3_bucket" "ci_cd_lab_bucky" {
     tags = {
       Environment = "dev"
       ManagedBy = "terraform-ci-cd"
+      Phase = "devlopment-phase"
     }
   
 }
